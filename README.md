@@ -1,12 +1,15 @@
 # Approved-Project-Crude-Oil-
-# SALES-PREDICTION
-In this project, I analyzed the sales data for more than 8,000 different oulets. I made sales predictions in the various outlets based on their year of establishment, the type of outlet they represent, their year of establishment and the kind of item sold. The data cleaning, preprocessing and the modeling of this project was done. Links to the codes are below
+# Price Actual PREDICTION of Crude oil
+In this project, I analyzed the crude oil data for more than 25,000 different oulets. I made price actual predictions in the various outlets based on their generations of fossils and gas and other features. The data was cleaned, preprocessed and modelled using three algorithms. The best performing was consider to be deployed for use.
 
-[click](https://github.com/xkaycc/SALES-PREDICTION/blob/main/Data_Cleaning_(2).ipynb) Data cleaning
+### Your business problem and stakeholders
 
-[click](https://github.com/xkaycc/SALES-PREDICTION/blob/main/Preprocessing_Part_5.ipynb) Data Preprocessing 
 
-[click](https://github.com/xkaycc/SALES-PREDICTION/blob/main/Project%20%201%20(Core).ipynb) Modelling 
+### source of your data
+
+
+### Description of your data
+
 
 #### Visualizations
 In this analysis, the missing data were visualized using missingno and also the correlation of the target variable to the features was visualized using heatmap
