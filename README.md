@@ -1,8 +1,8 @@
-### Regression Analysis on Crude oil
-## Introduction 
+## Regression Analysis on Crude oil
+### Introduction 
 In this project, I conducted an analysis of crude oil data from over 27,000 different fuel generations. I utilized various features, did feature engineers on the data to make prics. The data was thoroughly cleaned, preprocessed, and modeled using three different algorithms. Among these algorithms, the best-performing one was selected for deployment and future use.
 
-## Your business problem and stakeholders
+### Your business problem and stakeholders
 To predict price of cruel oil for stakeholders without under/over pricing. 
 
 ### source of your data
@@ -10,23 +10,22 @@ Data was gotten from zindi africa
 
 ### Description of your data
 The data contain 27,500 rows and 30 columns with the target variable (price actual)
-[Link](https://github.com/xkaycc/SALES-PREDICTION/blob/main/Data_Cleaning_(2).ipynb) to the data file
+[Link](https://github.com/xkaycc/Approved-Project-Crude-Oil-/blob/main/crude%20oil.csv) to the data file
 
-
-#### Visualizations
-In this analysis, the missing data were visualized using missingno and also the correlation of the target variable to the features was visualized using heatmap
-![image](https://user-images.githubusercontent.com/120944468/227781895-00536716-8a94-4b75-bf87-2f6d610dd622.png)
+### Visualizations
+In this analysis, scatter plot was used to check the relationship between the target variable and other features.
+![image](https://user-images.githubusercontent.com/120944468/230381921-e9d89c04-fefe-417f-ab20-2bc202c2eb3e.png)
 The above figure shows the missing data in the sales prediction project
-![image](https://user-images.githubusercontent.com/120944468/227781972-b12b8c82-50e3-410c-8214-e857fa9a4b92.png)
-The second figure shows the relationships between the target variable (Item_Outlet_Sales) and the features variables
+![image](https://user-images.githubusercontent.com/120944468/230382346-4087e90e-7760-48e2-be2f-3487e123fd40.png)
+The second figure shows the distribution of the target variable
+![image](https://user-images.githubusercontent.com/120944468/230382575-01a264bc-21c0-4ad3-8e50-9064d3773168.png)
+The image above show that the higher the hour, the more the price of crude oil is sold
 
-## Model
+### Model
 Regressions algorithms that were used for this project 
- - dummy regressor
- - Linear regression
- - Decision Tree
- - Bagged Tree
- - Random Forest
+ - CatboostRegressor
+ - XgboostRegressor
+ - KNeighbour Means
 
 ## Describe your final model
 Random forest model performs well more than the four algorithms
