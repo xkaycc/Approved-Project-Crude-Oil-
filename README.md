@@ -1,14 +1,15 @@
-# Approved-Project-Crude-Oil-
-# Price Actual PREDICTION of Crude oil
-In this project, I analyzed the crude oil data for more than 25,000 different oulets. I made price actual predictions in the various outlets based on their generations of fossils and gas and other features. The data was cleaned, preprocessed and modelled using three algorithms. The best performing was consider to be deployed for use.
+### Regression Analysis on Crude oil
+## Introduction 
+In this project, I conducted an analysis of crude oil data from over 27,000 different fuel generations. I utilized various features, did feature engineers on the data to make prics. The data was thoroughly cleaned, preprocessed, and modeled using three different algorithms. Among these algorithms, the best-performing one was selected for deployment and future use.
 
-### Your business problem and stakeholders
-
+## Your business problem and stakeholders
+To predict price of cruel oil for stakeholders without under/over pricing. 
 
 ### source of your data
-
+Data was gotten from zindi africa
 
 ### Description of your data
+The data contain 27,500 rows and 30 columns with the target variable (price actual)
 
 
 #### Visualizations
