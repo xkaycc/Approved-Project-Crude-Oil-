@@ -10,6 +10,7 @@ Data was gotten from zindi africa
 
 ### Description of your data
 The data contain 27,500 rows and 30 columns with the target variable (price actual)
+[Link](https://github.com/xkaycc/SALES-PREDICTION/blob/main/Data_Cleaning_(2).ipynb) to the data file
 
 
 #### Visualizations
