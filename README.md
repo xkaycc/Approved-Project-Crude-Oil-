@@ -28,15 +28,13 @@ Regressions algorithms that were used for this project
  - KNeighbour Means
 
 ## Describe your final model
-Random forest model performs well more than the four algorithms
+Catboost performs well more of the three algorithms
 
 ## Report the most important metrics
-Mean Squared Error (MSE), Mean Absolute Error (MAE), Root Mean Square Error(RMSE), R-Squared (R2):
-These were the metrics that was used for the project. However I considered the RMSE and R2 for model built to determine the best model
+Root Mean Square Error(RMSE): This is the metrics that was used for the project. 
 
 ## Refer to the metrics to describe how well the model would solve the business problem
-Root Mean Squared Error: The lower the error scores for RMSE, the better the prediction of sales, 
-R-Squared: The more the R2, the more the people are ready to buy the sales
+Root Mean Squared Error: The lower the error scores for RMSE, the better the prediction of crude oil, 
 
 ## Recommendations:
-Since Random Forest algorithm was the one that performs well, it will be advisable to deployed it
+Since Catboost algorithm was the one that performs well, it will be advisable to deployed it
